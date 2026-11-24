@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>app.ryujinx.Ryujinx</id>
+	<metadata_license>MIT</metadata_license>
+	<project_license>MIT</project_license>
+	<name>Ryujinx</name>
+	<summary>Nintendo Switch 1 emulator written in C#</summary>
+	<developer id="app.ryujinx">
+		<name>Ryubing</name>
+	</developer>
+	<description>
+		<p>Ryujinx is an open-source Nintendo Switch emulator, originally created by gdkchan, written in C#.</p>
+	</description>
+	<launchable type="desktop-id">app.ryujinx.Ryujinx.desktop</launchable>
+	<categories>
+		<category>Game</category>
+		<category>Emulator</category>
+	</categories>
+	<keywords>
+		<keyword>nintendo</keyword>
+		<keyword>switch</keyword>
+		<keyword>emulator</keyword>
+	</keywords>
+	<icon type="stock">app.ryujinx.Ryujinx</icon>
+	<branding>
+		<color type="primary" scheme_preference="light">#f3edc8</color>
+		<color type="primary" scheme_preference="dark">#4f40bf</color>
+	</branding>
+	<content_rating type="oars-1.1">
+        <content_attribute id="social-chat">moderate</content_attribute>
+    </content_rating>
+    <url type="homepage">https://ryujinx.app/</url>
+    <url type="bugtracker">https://github.com/Ryubing/Issues</url>
+	<url type="faq">https://docs.ryujinx.app/</url>
+	<url type="help">https://docs.ryujinx.app/</url>
+	<url type="donation">https://ryujinx.app/donate</url>
+	<url type="contact">https://discord.gg/c6sDayDFkt</url>
+	<url type="vcs-browser">https://git.ryujinx.app/projects/Ryubing</url>
+	<url type="contribute">https://git.ryujinx.app/projects/Ryubing</url>
+	<screenshots>
+		<screenshot type="default">
+			<image>https://git.ryujinx.app/projects/Ryubing/raw/branch/master/docs/shell.png</image>
+		</screenshot>
+	</screenshots>
+	<supports>
+		<control>pointing</control>
+		<control>keyboard</control>
+		<internet>offline-only</internet>
+	</supports>
+	<recommends>
+		<memory>16384</memory>
+		<control>gamepad</control>
+		<display_length compare="ge">768</display_length>
+	</recommends>
+</component>
